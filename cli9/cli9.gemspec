@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "CLI7/version"
+require "cli9/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "CLI7"
-  spec.version       = CLI7::VERSION
+  spec.name          = "cli9"
+  spec.version       = Cli9::VERSION
   spec.authors       = ["'Shayan Mohsin'"]
   spec.email         = ["'shaymotionfilms@gmail.com'"]
 
@@ -38,6 +38,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
-    spec.add_development_dependency "pry"
-  spec.add_development_dependency "nokogiri"
 end

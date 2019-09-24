@@ -1,6 +1,6 @@
-require "CLI7/version"
+require "cli9/version"
 
-module CLI7
+module Cli9
   class Error < StandardError; end
   # Your code goes here...
 end
