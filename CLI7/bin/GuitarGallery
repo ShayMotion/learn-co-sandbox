@@ -1,0 +1,5 @@
+#!/user/bin/env ruby
+
+require_relative '../lib/scraper.rb'
+
+GuitarGallery::CLI.new.call
